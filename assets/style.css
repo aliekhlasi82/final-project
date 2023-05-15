@@ -80,7 +80,7 @@ header nav ul li a {
   padding: 50px 20px;
   width: 100%;
   display: inline-block;
-  background-color: #7db1a0;
+  background-color: #a8dadc;
 }
 li.search {
   display: flex;
@@ -131,8 +131,6 @@ li.search input[type="text"]::placeholder {
 h2 {
   border-radius: 20px;
   background-color: #dad7cd;
-
-  order: inherit;
 }
 /* .section2 {
   display: flex;
@@ -180,8 +178,8 @@ h2 {
   box-sizing: border-box;
   display: inline-block;
   width: calc(33.33% - 20px);
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   background-color: #e9c46a;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -206,11 +204,4 @@ footer {
   text-align: justify;
   padding: 10;
   height: 100px;
-}
-
-
-/*this is the alert showes after buynow
-
-body {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
