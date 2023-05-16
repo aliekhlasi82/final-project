@@ -52,7 +52,7 @@ header nav ul li a {
   justify-content: center;
   align-items: center;
   padding: 350px 20px;
-  background-image: url(background.jpg);
+  background-image: url(./assets/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
