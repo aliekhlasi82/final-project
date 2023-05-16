@@ -20,14 +20,17 @@ function paintProducts(products, sectionID) {
     let card = `
           <article class="card">
              
-              <h2>Card ${i + 1}</h2>
-              <p>Title: ${title}</p>
+              <h2> ${title}</h2>
+             
               <p>Price: ${price}</p>
               <p>Description:</p>
-              <p>Rating: ${rating}</p>
-              <img src="${image}" alt="">
               <p>Weight: 1 lb</p>
+              <p>Rating: ${rating}</p>
               <button onclick="printMessage(${price});"> Buy now</button>
+              <img src="${image}" alt="">
+              </article>
+           
+              
           `;
     document.querySelector(sectionID).innerHTML += card;
   }

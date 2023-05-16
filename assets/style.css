@@ -56,22 +56,38 @@ header nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  flex-direction: column;
+}
+.effective {
+  position: absolute;
+  top: 10px;
+  left: 73%;
+  color: #ffaaff;
 }
 
-.section1 p p2 {
+.choice {
   position: absolute;
-  width: 269px;
-  height: 132px;
+  top: 20%;
+  left: 74%;
+  color: #c372c4;
+}
 
-  font-family: Jolly Lodger;
+.section1 p {
+  position: absolute;
+  font-size: 30px;
+
+  font-family: "Macondo";
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
   line-height: 78px;
 
-  color: #1b2261;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
 
-  border: 1px solid #000000;
+.section1 {
+  height: 50%;
+  weight: 60%;
 }
 .section-product {
   display: flex;
@@ -174,7 +190,7 @@ h2 {
 
 .card {
   border: 1px solid #ddd;
-  border-radius: 10px;
+  border-radius: 15px;
   box-sizing: border-box;
   display: inline-block;
   width: calc(33.33% - 20px);
@@ -183,6 +199,8 @@ h2 {
   background-color: #e9c46a;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
+  column-count: 2;
+  column-gap: 20px;
 }
 
 .card h2 {
@@ -190,7 +208,7 @@ h2 {
 }
 
 .card img {
-  max-width: 20%;
+  max-width: 80%;
 }
 
 .card p {
