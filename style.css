@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #2a9d8f;
 }
 
 /* Header styles */
@@ -86,8 +87,7 @@ header nav ul li a {
 }
 
 .section1 {
-  height: 50%;
-  weight: 60%;
+  max-height: 50%;
 }
 .section-product {
   display: flex;
@@ -146,47 +146,16 @@ li.search input[type="text"]::placeholder {
 }
 h2 {
   border-radius: 20px;
-  background-color: #dad7cd;
+  background-color: #e0d4cc;
 }
-/* .section2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 50px 20px;
-  width: 100%;
-  display: inline-block;
-  background-color: #fcf3cf;
-} */
 
-/* .section3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 50px 20px;
-  width: 100%;
-  display: inline-block;
-  background-color: #fdebd0;
-} */
+#man {
+  background-color: #d7e0cb;
+}
 
-/* .section4 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 50px 20px;
-  width: 100%;
-  display: inline-block;
-  background-color: #fae5d3;
-} */
-
-/* .section5 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 50px 20px;
-  width: 100%;
-  display: inline-block;
-  background-color: #e8c4a5;
-} */
+#sport {
+  background-color: #d7e0cb;
+}
 
 .card {
   border: 1px solid #ddd;

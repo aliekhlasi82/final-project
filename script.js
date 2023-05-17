@@ -152,11 +152,16 @@ document
   .getElementById("search_form2")
   .addEventListener("submit", function (event) {
     event.preventDefault(); //stop the submitting event
-    console.log("hola");
-    alert("hola");
-    const product = event.target.product_name.value;
-    alert(product);
+    const product = event.target.product_name.value; // text of the input
     console.log(product);
+
+    const productList = document.querySelectorAll("article h2"); // all the elements in DOM
+
+    for (let i = 0; i < productList.length; i++) {
+      if (product == productList[i].innerText) {
+        alert("I've found a:" + product);
+      }
+    }
 
     // Code here to find the exact product
     // Look for ID product or Title --> DOM manipulation
