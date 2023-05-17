@@ -2,9 +2,17 @@
 <html>
   <head>
     <title>TopMarca</title>
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js
+    "></script>
+    <link href="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css
+    " rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
+
+
     <header>
       <img src="./assets/logo1.png" alt="logo" />
       <nav>
@@ -27,13 +35,14 @@
        
       </section>
 
+      <li class="search">
+        <form id="search_form2">
+          <input type="text" name="product_name" placeholder="Search Product" />
+          <button type="submit"><i class="fa fa-search">Search</i></button>
+        </form>
+      </li>
       <section class="section-product" id="woman">
-        <li class="search">
-          <form action="#">
-            <input type="text" placeholder="Search Product" />
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>
-        </li>
+
 
         <h2>Woman</h2>
       </section>
@@ -45,7 +54,7 @@
       <section class="section-product" id="electronic">
         <h2>Electronic</h2>
       </section>
-      <section class="section-product" id="candies">
+      <section class="section-product" id="sport">
         <h2>Sport</h2>
         
         <article class="card">
@@ -53,6 +62,8 @@
           <p style="color: brown">Amazing Discount</p>
           <p>Price: $119.99</p>
           <p>#TopMarca Product</p>
+          <button>Buy now</button>
+
           <img src="./assets/bike.jpg" alt="a bike" />
         </article>
 
@@ -61,6 +72,7 @@
           <p style="color: brown">Amazing Discount</p>
           <p>Price: $12</p>
           <p>#TopMarca Product</p>
+          <button> Buy now</button>
           <img src="./assets/boxing.jpg" alt="Boxing Gloves" />
         </article>
 
@@ -69,6 +81,7 @@
           <p style="color: brown">Amazing Discount</p>
           <p>Price: $15.99</p>
           <p>#TopMarca Product</p>
+          <button> Buy now</button>
           <img src="./assets/dumbblles.jpg" alt="dumbblles" />
         </article>
 
@@ -77,6 +90,7 @@
           <p style="color: brown">Amazing Discount</p>
           <p>Price: $9</p>
           <p>#TopMarca Product</p>
+          <button> Buy now</button>
           <img src="./assets/net.jpg" alt="Basketball Net" />
         </article>
 
@@ -85,6 +99,7 @@
           <p style="color: brown">Amazing Discount</p>
           <p>Price: $13.99</p>
           <p>#TopMarca Product</p>
+          <button> Buy now</button>
           <img src="./assets/ball.jpg" alt="ball" />
         </article>
 
@@ -93,18 +108,20 @@
           <p style="color: brown">Amazing Discount</p>
           <p>Price: $38.99</p>
           <p>#TopMarca Product</p>
+          <button> Buy now</button>
           <img src="./assets/jogging.jpg" alt=" jogging Clothes" />
         </article>
       </section>
 
     </section>
-    <section class="section-product" id="candies">
+    <section class="section-product" id="kids">
       <h2>Kids</h2>
       <article class="card">
         <h3>Sweet Socks:</h3>
         <p style="color: brown">Amazing Discount</p>
         <p>Price: $9.99</p>
         <p>#TopMarca Product</p>
+        <button> Buy now</button>
         <img src="./assets/socks.jpg" alt="socks of kide" />
       </article>
 
@@ -113,6 +130,7 @@
         <p style="color: brown">Amazing Discount</p>
         <p>Price: $19.99</p>
         <p>#TopMarca Product</p>
+        <button> Buy now</button>
         <img src="./assets/jacket.jpg" alt="jackets of kides" />
       </article>
 
@@ -121,6 +139,7 @@
         <p style="color: brown">Amazing Discount</p>
         <p>Price: $28.99</p>
         <p>#TopMarca Product</p>
+        <button> Buy now</button>
         <img src="./assets/shoes.jpg" alt="shoes of kides" />
       </article>
 
@@ -129,6 +148,7 @@
         <p style="color: brown">Amazing Discount</p>
         <p>Price: $33</p>
         <p>#TopMarca Product</p>
+        <button> Buy now</button>
         <img src="./assets/baby cloth.jpg" alt="clothes of a Baby" />
       </article>
 
@@ -137,6 +157,7 @@
         <p style="color: brown">Amazing Discount</p>
         <p>Price: $36.99</p>
         <p>#TopMarca Product</p>
+        <button> Buy now</button>
         <img src="./assets/dog toy.jpg" alt="Puppy toy for kides" />
       </article>
 
@@ -145,6 +166,7 @@
         <p style="color: brown">Amazing Discount</p>
         <p>Price: $18.99</p>
         <p>#TopMarca Product</p>
+        <button>Buy now</button>
         <img src="./assets/Toy.jpg" alt="toy for kides" />
       </article>
     </section>
