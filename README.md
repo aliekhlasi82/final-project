@@ -1,6 +1,6 @@
 # Online Shopping
 
-to do: , do with css and html link, add contact card, do description toreadme by using pokemoon readme file,poerpoint slides, learn js were used...
+to do: do with css and html link, add contact card, do description toreadme by using pokemoon readme file,poerpoint slides, learn js were used...
 
 In this project I have build a page that is servicing an online cloth shopping.In this device i have used HTML,Css,JS,figma and pint for first view, free sites for picture and video, phtoshop for changeing desighn of some phtos and making logo and github for developing ordinarely.
 i have used an external free Api to obtain some prepared data in second section of my main body, Dom, Functions, Alert. At first of my presentatin i have to add that during the couse a personal problem aavoid me to follow the class ordinarly, so i lost some importatnt classes of vue js. so maybe i can not present my best today, but now i am continuening js clases in another place.
