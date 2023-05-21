@@ -71,25 +71,37 @@ let sport_products = [
     title: "Bike",
     price: 119.99,
     image: "./assets/bike.jpg",
-    rating: 1,
+    rating: 3,
   },
   {
-    title: "Bike",
-    price: 119.99,
-    image: "./assets/bike.jpg",
-    rating: 1,
+    title: "Boxing Gloves",
+    price: 12,
+    image: "./assets/boxing.jpg",
+    rating: 3,
   },
   {
-    title: "Bike",
-    price: 119.99,
-    image: "./assets/bike.jpg",
-    rating: 1,
+    title: "Dombbles",
+    price: 15.99,
+    image: "./assets/dumbblles.jpg",
+    rating: 4,
   },
   {
-    title: "Bike",
-    price: 119.99,
-    image: "./assets/bike.jpg",
-    rating: 1,
+    title: "Basketball Net",
+    price: 9,
+    image: "./assets/net.jpg",
+    rating: 4,
+  },
+  {
+    title: "Ball",
+    price: 13.99,
+    image: "./assets/ball.jpg",
+    rating: 3,
+  },
+  {
+    title: "Jogging Clothes",
+    price: 38.99,
+    image: "./assets/jogging.jpg",
+    rating: 5,
   },
 ];
 
@@ -99,6 +111,46 @@ paintProducts(sport_products, "#sport");
 //let kids_products = [{},{},{}]
 //paintProducts(kids_products, "#kids");
 
+let kids_products = [
+  {
+    title: "Sweet Socks",
+    price: 9.99,
+    image: "./assets/socks.jpg",
+    rating: 3,
+  },
+  {
+    title: "winter Jacket",
+    price: 19.99,
+    image: "./assets/jacket.jpg",
+    rating: 4,
+  },
+  {
+    title: "Shoes",
+    price: 28.99,
+    image: "./assets/shoes.jpg",
+    rating: 5,
+  },
+  {
+    title: "Bear Toy",
+    price: 18.99,
+    image: "./assets/Toy.jpg",
+    rating: 4,
+  },
+  {
+    title: "Puppy Toy",
+    price: 36.99,
+    image: "./assets/dog toy.jpg",
+    rating: 5,
+  },
+  {
+    title: "Baby suummer clothes package",
+    price: 33,
+    image: "./assets/baby cloth.jpg",
+    rating: 3,
+  },
+];
+
+paintProducts(kids_products, "#kids");
 /* 
 
 
