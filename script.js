@@ -42,7 +42,7 @@ function printMessage(title, price) {
   console.log(price);
 
   // alert(title + " " + price + "€");
-  Swal.fire(title + " " + price + "€", "question");
+  Swal.fire(title + " " + price + "€", "First you should pay");
 }
 
 fetch("https://fakestoreapi.com/products/category/women's clothing")
@@ -107,10 +107,6 @@ let sport_products = [
 
 paintProducts(sport_products, "#sport");
 
-// PENDING: fill with info kids
-//let kids_products = [{},{},{}]
-//paintProducts(kids_products, "#kids");
-
 let kids_products = [
   {
     title: "Sweet Socks",
@@ -151,54 +147,6 @@ let kids_products = [
 ];
 
 paintProducts(kids_products, "#kids");
-/* 
-
-
-<article class="card">
-  <h2>Boxing Gloves</h2>
-  <p style="color: brown">Amazing Discount</p>
-  <p>Price: $12</p>
-  <p>#TopMarca Product</p>
-  <button> Buy now</button>
-  <img src="./assets/boxing.jpg" alt="Boxing Gloves" />
-</article>
-
-<article class="card">
-  <h2>Dombbles</h2>
-  <p style="color: brown">Amazing Discount</p>
-  <p>Price: $15.99</p>
-  <p>#TopMarca Product</p>
-  <button> Buy now</button>
-  <img src="./assets/dumbblles.jpg" alt="dumbblles" />
-</article>
-
-<article class="card">
-  <h2>Basketball Net</h2>
-  <p style="color: brown">Amazing Discount</p>
-  <p>Price: $9</p>
-  <p>#TopMarca Product</p>
-  <button> Buy now</button>
-  <img src="./assets/net.jpg" alt="Basketball Net" />
-</article>
-
-<article class="card">
-  <h2>Ball</h2>
-  <p style="color: brown">Amazing Discount</p>
-  <p>Price: $13.99</p>
-  <p>#TopMarca Product</p>
-  <button> Buy now</button>
-  <img src="./assets/ball.jpg" alt="ball" />
-</article>
-
-<article class="card">
-  <h2>Jogging Clothes</h2>
-  <p style="color: brown">Amazing Discount</p>
-  <p>Price: $38.99</p>
-  <p>#TopMarca Product</p>
-  <button> Buy now</button>
-  <img src="./assets/jogging.jpg" alt=" jogging Clothes" />
-</article>
- */
 
 document
   .getElementById("search_form2")

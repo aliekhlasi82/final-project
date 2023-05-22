@@ -121,7 +121,7 @@ li.search input[type="text"] {
 }
 
 li.search button[type="submit"] {
-  background-color: #fff3f3;
+  background-color: #3d3838;
   color: #fff;
   border: none;
   padding: 8px 12px;
@@ -185,10 +185,29 @@ h2 {
 }
 
 /* Footer styles */
+
 footer {
   background-color: #2a9d8f;
   color: #fff;
-  text-align: justify;
-  padding: 10;
   height: 100px;
+  text-align: left;
+  padding: 10px;
+}
+#contact {
+  font-size: 20px;
+  text-align: left;
+  position: absolute;
+  background-color: #a8dadc;
+  color: #3d3838;
+  width: 30%;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+#copy {
+  float: right;
+}
+h3 {
+  font-size: 40px;
 }
