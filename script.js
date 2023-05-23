@@ -1,12 +1,5 @@
 console.log("products website");
 
-// GET Men's category
-// fetch("https://fakestoreapi.com/products/category/women's clothing")
-//   .then((res) => res.json())
-//   .then((products) => console.log(products));
-
-// products -> [{},{},{}]
-//sectionID -> #woman, #man, #electronics, etc...
 function paintProducts(products, sectionID) {
   console.log(products);
   for (let i = 0; i < products.length; i++) {
@@ -21,7 +14,7 @@ function paintProducts(products, sectionID) {
     let card = `
           <article class="card">
              
-              <h2>${title}</h2>
+              <h2>${title.slice(0, 80)}</h2>
               <p>Price: ${price}</p>
               <p>Description:</p>
               <p>Weight: 1 lb</p>
