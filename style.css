@@ -1,11 +1,17 @@
-/*https://coolors.co/e6e1c5-d4cb92-87947f-395c6b-5d80ac-6f92cd-80a4ed-bcd3f2 */
-/*https://coolors.co/413c58-a3c4bc-bfd7b5-e7efc5-f2dda4*/
-
 /* Global styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #2a9d8f;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  border-radius: 20px;
+  background-color: #e0d4cc;
 }
 
 /* Header styles */
@@ -46,6 +52,16 @@ header nav ul li a {
   font-size: 18px;
 }
 
+/* Footer styles */
+
+footer {
+  background-color: #2a9d8f;
+  color: #fff;
+  height: 100px;
+  text-align: left;
+  padding: 10px;
+}
+
 /* Section styles */
 .section1 {
   display: flex;
@@ -62,28 +78,23 @@ header nav ul li a {
 .effective {
   position: absolute;
   top: 10px;
-  left: 73%;
-  color: #ffaaff;
+  left: 33%;
+  color: #854686;
 }
 
 .choice {
   position: absolute;
   top: 20%;
-  left: 74%;
-  color: #c372c4;
+  left: 40%;
+  color: #a15aa2;
 }
 
 .section1 p {
   position: absolute;
-  font-size: 30px;
-
+  font-size: 33px;
   font-family: "Macondo";
-  font-style: normal;
-  font-weight: 400;
   font-size: 64px;
   line-height: 78px;
-
-  border: 1px solid rgba(0, 0, 0, 1);
 }
 
 .section1 {
@@ -120,7 +131,9 @@ li.search input[type="text"] {
   margin-right: 5px;
 }
 
-li.search button[type="submit"] {
+li.search button[type="submit"],
+.buy,
+.send {
   background-color: #3d3838;
   color: #fff;
   border: none;
@@ -129,24 +142,11 @@ li.search button[type="submit"] {
   margin-left: 5px;
   cursor: pointer;
   font-size: 16px;
-}
-
-li.search button[type="submit"] i {
   margin-right: 5px;
 }
 
 li.search input[type="text"]::placeholder {
   color: #999;
-}
-
-@media only screen and (max-width: 768px) {
-  li.search input[type="text"] {
-    width: 100%;
-  }
-}
-h2 {
-  border-radius: 20px;
-  background-color: #e0d4cc;
 }
 
 #man {
@@ -163,13 +163,15 @@ h2 {
   box-sizing: border-box;
   display: inline-block;
   width: calc(33.33% - 20px);
+  height: 300px;
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
   background-color: #e9c46a;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   column-count: 2;
   column-gap: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card h2 {
@@ -177,22 +179,14 @@ h2 {
 }
 
 .card img {
-  max-width: 80%;
+  width: 240px;
+  height: 240px;
 }
 
 .card p {
   margin: 10px 0;
 }
 
-/* Footer styles */
-
-footer {
-  background-color: #2a9d8f;
-  color: #fff;
-  height: 100px;
-  text-align: left;
-  padding: 10px;
-}
 #contact {
   font-size: 20px;
   text-align: left;
@@ -201,13 +195,21 @@ footer {
   color: #3d3838;
   width: 30%;
   padding: 30px;
-  margin: 20px;
+  margin-left: 600px;
+  margin-right: auto;
   border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #copy {
   float: right;
 }
-h3 {
-  font-size: 40px;
+
+.center {
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  li.search input[type="text"] {
+    width: 100%;
+  }
 }
