@@ -6,7 +6,6 @@ function paintProducts(products, sectionID) {
     let image = products[i].image;
     let title = products[i].title;
     let price = products[i].price;
-
     let rating = products[i].rating.rate;
 
     const product = { title, price, image, rating };
@@ -19,9 +18,10 @@ function paintProducts(products, sectionID) {
               <p>Description:</p>
               <p>Weight: 1 lb</p>
               <p>Rating: ${rating}</p>
-              <button class="buy" onclick="printMessage('${title}',${price});"> Buy now</button>
               <img src="${image}" alt="">
-              </article>
+              <button class="buy" onclick="printMessage('${title}','${price}','${image}');"> Buy now</button>
+            
+            </article>
            
               
           `;
@@ -29,12 +29,20 @@ function paintProducts(products, sectionID) {
   }
 }
 
-function printMessage(title, price) {
+function printMessage(title, price, image) {
   console.log(title);
   console.log(price);
 
   // alert(title + " " + price + "€");
   Swal.fire(title + " " + price + "€", "First you should pay");
+  Swal.fire({
+    title: title,
+    text: title + " " + price + "€. First you should pay",
+    imageUrl: image,
+    imageWidth: 400,
+    imageHeight: 200,
+    imageAlt: "Custom image",
+  });
 }
 
 fetch("https://fakestoreapi.com/products/category/women's clothing")
@@ -148,10 +156,12 @@ document
     console.log(product);
 
     const productList = document.querySelectorAll("article h2"); // all the elements in DOM
-
+    console.log(productList);
     for (let i = 0; i < productList.length; i++) {
-      if (product == productList[i].innerText) {
-        alert("I've found a:" + product);
+      const title = productList[i].innerText;
+      if (title.includes(product)) {
+        // alert(title + " " + price + "€");
+        Swal.fire("I've found a:" + title);
       }
     }
 

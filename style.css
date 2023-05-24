@@ -11,7 +11,7 @@ h1 {
 
 h2 {
   border-radius: 20px;
-  background-color: #e0d4cc;
+  background-color: #c7bab2;
 }
 
 /* Header styles */
@@ -62,6 +62,12 @@ footer {
   padding: 10px;
 }
 
+.section-product > h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
 /* Section styles */
 .section1 {
   display: flex;
@@ -69,7 +75,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 350px 20px;
-  background-image: url(./assets/background.jpg);
+  background-image: url(./assets/background2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -86,7 +92,6 @@ footer {
   position: absolute;
   top: 20%;
   left: 40%;
-  color: #a15aa2;
 }
 
 .section1 p {
@@ -95,6 +100,12 @@ footer {
   font-family: "Macondo";
   font-size: 64px;
   line-height: 78px;
+  background-color: #a15aa2;
+  color: #113f3a;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .section1 {
@@ -166,7 +177,7 @@ li.search input[type="text"]::placeholder {
   height: 300px;
   margin: 5px;
   padding: 10px;
-  background-color: #e9c46a;
+  background-color: wh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   column-count: 2;
@@ -181,6 +192,8 @@ li.search input[type="text"]::placeholder {
 .card img {
   width: 240px;
   height: 240px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card p {
