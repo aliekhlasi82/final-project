@@ -51,6 +51,14 @@ header nav ul li a {
   text-decoration: none;
   font-size: 18px;
 }
+.a1 {
+  border: #39857c solid 2px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.a1:hover {
+  background-color: #999;
+}
 
 /* Footer styles */
 
@@ -77,21 +85,40 @@ footer {
   padding: 350px 20px;
   background-image: url(./assets/background2.jpg);
   background-repeat: no-repeat;
+  animation: change 25s infinite ease-in-out;
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   flex-direction: column;
 }
+@keyframes change {
+  0% {
+    background-image: url(./assets/background2.jpg);
+  }
+  20% {
+    background-image: url(https://e0.pxfuel.com/wallpapers/448/769/desktop-wallpaper-men-s-fashion-men-clothing.jpg);
+  }
+  40% {
+    background-image: url(https://media.istockphoto.com/id/1370742180/photo/shot-of-an-attractive-young-woman-using-her-cellphone-outside-while-shopping-in-the-city.jpg?s=170667a&w=0&k=20&c=RqKJBO-9gi73Pl9Ruelro8wPsDMJWcZb3LTENfcRFkw=);
+  }
+  70% {
+    background-image: url(https://i.pinimg.com/originals/ed/f7/a1/edf7a1fd9cafaebb8056611d6f882721.jpg);
+  }
+  100% {
+    background-image: url(./assets/background2.jpg);
+  }
+}
 .effective {
   position: absolute;
-  top: 10px;
-  left: 33%;
+  top: 2%;
+  left: 29%;
   color: #854686;
 }
 
 .choice {
   position: absolute;
-  top: 20%;
-  left: 40%;
+  top: 2%;
+  left: 47%;
 }
 
 .section1 p {
@@ -106,6 +133,7 @@ footer {
   padding-left: 10px;
   padding-right: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation: change 25s infinite ease-in-out;
 }
 
 .section1 {
